@@ -21,6 +21,14 @@
 		75C9204227CA9D06003832D6 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9201427CA9D03003832D6 /* Persistence.swift */; };
 		75C9204327CA9D06003832D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C9201527CA9D06003832D6 /* Assets.xcassets */; };
 		75C9204427CA9D06003832D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 75C9201527CA9D06003832D6 /* Assets.xcassets */; };
+		75C9205427CABA7B003832D6 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205327CABA7B003832D6 /* StopwatchView.swift */; };
+		75C9205527CABA7B003832D6 /* StopwatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205327CABA7B003832D6 /* StopwatchView.swift */; };
+		75C9205727CAC2B8003832D6 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205627CAC2B8003832D6 /* Stopwatch.swift */; };
+		75C9205827CAC2B8003832D6 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205627CAC2B8003832D6 /* Stopwatch.swift */; };
+		75C9205A27CB84A2003832D6 /* RecordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205927CB84A2003832D6 /* RecordsList.swift */; };
+		75C9205B27CB84A2003832D6 /* RecordsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205927CB84A2003832D6 /* RecordsList.swift */; };
+		75C9205D27CB9776003832D6 /* TopRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205C27CB9776003832D6 /* TopRecords.swift */; };
+		75C9205E27CB9776003832D6 /* TopRecords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75C9205C27CB9776003832D6 /* TopRecords.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +63,10 @@
 		75C9203327CA9D06003832D6 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		75C9203727CA9D06003832D6 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		75C9203927CA9D06003832D6 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		75C9205327CABA7B003832D6 /* StopwatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchView.swift; sourceTree = "<group>"; };
+		75C9205627CAC2B8003832D6 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
+		75C9205927CB84A2003832D6 /* RecordsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsList.swift; sourceTree = "<group>"; };
+		75C9205C27CB9776003832D6 /* TopRecords.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopRecords.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +120,10 @@
 				75C9201427CA9D03003832D6 /* Persistence.swift */,
 				75C9201527CA9D06003832D6 /* Assets.xcassets */,
 				75C9201027CA9D03003832D6 /* Tap_to_count.xcdatamodeld */,
+				75C9205327CABA7B003832D6 /* StopwatchView.swift */,
+				75C9205627CAC2B8003832D6 /* Stopwatch.swift */,
+				75C9205927CB84A2003832D6 /* RecordsList.swift */,
+				75C9205C27CB9776003832D6 /* TopRecords.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -307,9 +323,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C9205D27CB9776003832D6 /* TopRecords.swift in Sources */,
 				75C9203D27CA9D06003832D6 /* Tap_to_countApp.swift in Sources */,
+				75C9205A27CB84A2003832D6 /* RecordsList.swift in Sources */,
+				75C9205727CAC2B8003832D6 /* Stopwatch.swift in Sources */,
 				75C9204127CA9D06003832D6 /* Persistence.swift in Sources */,
 				75C9203B27CA9D06003832D6 /* Tap_to_count.xcdatamodeld in Sources */,
+				75C9205427CABA7B003832D6 /* StopwatchView.swift in Sources */,
 				75C9203F27CA9D06003832D6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -318,9 +338,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				75C9205E27CB9776003832D6 /* TopRecords.swift in Sources */,
 				75C9203E27CA9D06003832D6 /* Tap_to_countApp.swift in Sources */,
+				75C9205B27CB84A2003832D6 /* RecordsList.swift in Sources */,
+				75C9205827CAC2B8003832D6 /* Stopwatch.swift in Sources */,
 				75C9204227CA9D06003832D6 /* Persistence.swift in Sources */,
 				75C9203C27CA9D06003832D6 /* Tap_to_count.xcdatamodeld in Sources */,
+				75C9205527CABA7B003832D6 /* StopwatchView.swift in Sources */,
 				75C9204027CA9D06003832D6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -476,7 +500,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 31;
 				DEVELOPMENT_TEAM = A7CC3SF7S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -506,7 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 31;
 				DEVELOPMENT_TEAM = A7CC3SF7S5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
